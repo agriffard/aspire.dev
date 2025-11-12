@@ -925,7 +925,7 @@ To verify that your application is running as expected after deployment, follow 
         <Pivot id="csharp">
         When deploying to Azure App Containers, you can verify that your ASP.NET Core/Blazor application is running by navigating to the URL provided in the deployment output. Look for a line similar to the following in the output:
 
-        ```bash title="Aspire CLI - Deployment Summary"
+        ```bash title="Aspire CLI - Deployment summary"
         09:21:44 (print-webfrontend-summary) i [INF] Successfully deployed webfrontend to 
             https://{NAME}.{LOCATION}.azurecontainerapps.io
         ```
@@ -944,7 +944,7 @@ To verify that your application is running as expected after deployment, follow 
         <Pivot id="python">
         when deploying to Azure App Containers, you can verify that your Python/React application is running by navigating to the URL provided in the deployment output. Look for a line similar to the following in the output:
 
-        ```bash title="Aspire CLI - Deployment Summary"
+        ```bash title="Aspire CLI - Deployment summary"
         09:25:29 (print-app-summary) i [INF] Successfully deployed app to 
             https://{NAME}.{LOCATION}.azurecontainerapps.io
         ```
@@ -972,7 +972,7 @@ After deploying your application, it's important to clean up resources to avoid 
     <TabItem id="docker-compose" label="Docker Compose" icon="seti:docker">
         To clean up resources after deploying with Docker Compose, you can stop and remove the running containers using the following command:
 
-        ```bash title="Docker CLI - Stop and remove containers"
+        ```bash title="Aspire CLI - Stop and remove containers"
         aspire do docker-compose-env-down
         ```
     </TabItem>
